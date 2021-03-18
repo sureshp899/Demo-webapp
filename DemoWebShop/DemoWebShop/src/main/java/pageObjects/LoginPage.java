@@ -26,7 +26,7 @@ public class LoginPage extends baseclass {
 	
 	public void palcetheOrder() throws IOException {
 		
-		  System.out.println("User landing into the home page");
+		  System.out.println("User landing into the home Page");
 		  driver.findElement(By.xpath(objrepository.getProperty("loginbutton"))).click();
 		  
 		  String welcomeMessag=driver.findElement(By.xpath(objrepository.getProperty("welcomeMessageText"))).getText();
